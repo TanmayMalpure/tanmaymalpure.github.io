@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.card {
+  background: #fff;
+  max-width: 300px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  padding: 10px;
+}
+.add-to-cart-btn{
+display: block;
+background-color: orange;
+color: #fff;
+padding: 10px;
+text-decoration: none;
+border: none;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+.img-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.price{
+font-weight: bold;
+font-size: 25px;
+}
+.discount-pill{
+display: inline-block;
+background-color: rgb(199, 29, 29);
+color: #fff;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 20px;
+}
