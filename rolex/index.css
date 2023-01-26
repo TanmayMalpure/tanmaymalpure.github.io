@@ -1,0 +1,139 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ font-family: Arial;
+
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image:url(watch.jpg);
+background-size: cover;
+background-position: center;}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+nav:hover{
+  cursor: pointer;
+}
+.logo{
+  size: 150px;
+}
+.logo:hover{
+  transform: scale(1.2);
+  transition: 1s;
+  cursor: pointer;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+nav ul li:hover{
+  color:#ffd700 ;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.2);
+
+
+  
+
+}
+
+
+.row1 section p:first-child, .row3{
+  font-size: 6vw;
+  padding: 10vh;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+.row1 section p:last-child{
+  font-size: 2vw;
+  letter-spacing: 0.3vw;
+  margin: 5vh;
+  text-align: center;
+}
+
+.row4{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  -webkit-scrollbar-width: thin;
+  align-items: center;
+}
+
+
+footer{
+  background-color: black;
+  color: grey;
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+footer ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+footer a{
+  text-decoration: none;
+  color: grey;
+  transition: 250ms;
+  padding: 3px;
+  font-size: 2vw;
+}
+footer a:hover{
+  color: goldenrod;
+}
+footer h2{
+  font-size: 3vw;
+  border-bottom: 0.3px solid grey;
+  color: rgba(245, 245, 245, 0.746);
+}
+footer section:last-child ul li a{
+  font-size: 2vw !important;
+}
+.lastStrip{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: grey;
+  border-top: 3px solid rgba(128, 128, 128, 0.2);
+}
+.footerlogo{
+  width: 10vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+}
+.copyright{
+  font-size: 2vw;
+}
+
+.row3{
+  font-size: 6vw;
+  padding: 10vh;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+.watch{
+  text-decoration: none;
+  color: white;
+}
+.watch:hover{
+  color: #ffd700;
+}
